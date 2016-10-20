@@ -6,7 +6,6 @@
     response: 'token',
     apiFitbit: 'https://api.fitbit.com',
     urlRedirect: encodeURIComponent((location.origin+location.pathname).slice(0,-1)),
-    urlApiEndPoint: 'https://api.fitbit.com/1/user/-/profile.json',
     urlAuthorize: 'https://www.fitbit.com/oauth2/authorize',
     urlRefreshToken: 'https://api.fitbit.com/oauth2/token',
     scope: ['activity','heartrate','location','profile','settings','sleep','social']
