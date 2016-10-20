@@ -3,7 +3,6 @@
   var config = {
     urlFitbit: 'https://www.fitbit.com',
     clientId: '2282PN',
-    clientSec: '89ba4b51bdd37a9fc9e0fa0d438ea9e1',
     response: 'token',
     apiFitbit: 'https://api.fitbit.com',
     urlRedirect: encodeURIComponent((location.origin+location.pathname).slice(0,-1)),
